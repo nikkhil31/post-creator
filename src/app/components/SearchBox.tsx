@@ -92,6 +92,8 @@ const SearchBox: FC = () => {
                             id='search'
                             className='focus:ring-indigo-500 focus:border-indigo-500 block w-full rounded-none rounded-r-md pl-12 text-lg border-gray-300 h-14'
                             placeholder='Search'
+                            min="10"
+                            required
                             autoComplete='off'
                         />
                         <input type='submit' hidden />

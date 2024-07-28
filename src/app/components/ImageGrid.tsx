@@ -106,6 +106,7 @@ const ImageGrid: FC<IImageGrid> = ({
                                 />
                                 <div className='absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center'>
                                     <button
+                                       type="button"
                                         onClick={() =>
                                             handleDownload(image, index)
                                         }

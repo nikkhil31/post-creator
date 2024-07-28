@@ -20,6 +20,7 @@ export default function RootLayout({
             <body className={inter.className}>{children}</body>
             <Script async src="https://www.googletagmanager.com/gtag/js?id=G-FG5928F9BQ"/>
             <Script
+            id="googletagmanager"
                 dangerouslySetInnerHTML={{
                     __html: `
                     window.dataLayer = window.dataLayer || [];
